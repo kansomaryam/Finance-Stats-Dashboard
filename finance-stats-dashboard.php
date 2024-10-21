@@ -29,7 +29,7 @@ if (!defined('ABSPATH')) {
 require_once plugin_dir_path(__FILE__) . 'includes/admin-page.php';
 require_once plugin_dir_path(__FILE__) . 'includes/charts.php';
 require_once plugin_dir_path(__FILE__) . 'includes/data-input.php';
-require_once plugin_dir_path(__FILE__) . 'includes/shortcodes.php';
+/*require_once plugin_dir_path(__FILE__) . 'includes/shortcodes.php';*/
 
 // Enqueue styles and scripts
 function financial_stats_enqueue_styles() {
