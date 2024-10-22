@@ -11,6 +11,7 @@ $fsd_default_options = array(
 
 // Hook to set these options upon plugin activation
 function fsd_set_default_options() {
+    global $fsd_default_options; // Declare the variable as global
     foreach ($fsd_default_options as $key => $value) {
         if (!get_option($key)) {
             update_option($key, $value);
